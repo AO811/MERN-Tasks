@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Task-4</title>
+    <style>
+        form {
+            text-align: center;
+            margin: auto;
+            width: 450px;
+            padding: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        label {
+            width: 150px;
+            text-align: left;
+            margin-right: 10px;
+        }
+        input, select {
+            flex: 1;
+            padding: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <ul>
+            <li>
+                <label for="fullName">Full name</label>
+                <input type="text" id="fullName" name="fullName">
+            </li>
+            <li>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username">
+            </li>
+            <li>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+            </li>
+            <li>
+                <label for="repassword">Repassword</label>
+                <input type="password" id="repassword" name="repassword">
+            </li>
+            <li>
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address">
+            </li>
+            <li>
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age">
+            </li>
+            <li>
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </li>
+            <li>
+                <button type="submit">Save</button>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
