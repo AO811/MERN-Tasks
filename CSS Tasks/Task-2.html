@@ -17,7 +17,7 @@
         }
 
         .navbar-vertical .nav-link:hover {
-            background-color: #ddd;
+            background-color: whitesmoke;
             color: black;
         }
 
@@ -25,9 +25,7 @@
             background-color: orange;
             color: white;
             padding: 10px;
-            text-align: center;
             font-size: 1.2em;
-            font-weight: bold;
         }
 
         .navbar-vertical .nav-content {
@@ -36,25 +34,26 @@
 
         .navbar-custom {
             background-color: lightgrey;
+            width: 300px;
+            margin: auto;
         }
 
         .navbar-nav .nav-link {
             color: blue;
-            font-weight: bold;
         }
 
         .navbar-nav .nav-link:hover {
-            background-color: #ddd;
+            background-color: whitesmoke;
             color: black;
         }
 
         .navbar-nav .nav-item.active .nav-link {
-            background-color: #444;
+            background-color: gray;
             color: white;
         }
 
         .navbar-nav .nav-item {
-            border-right: 1px solid #fff;
+            border-right: 1px solid white;
         }
 
         .navbar-nav .nav-item:last-child {
@@ -65,8 +64,8 @@
 
 <body>
     <h2 class="text-center">Vertical Navigation Bar</h2>
-    <div class="container d-flex justify-content-center">
-        <div class="navbar-vertical border">
+    <div class="container d-flex justify-content-center" style="border: 1px solid black; width: 200px;">
+        <div class="navbar-vertical border mt-1">
             <div class="navbar-header">Home</div>
             <div class="nav-content">
                 <nav class="nav flex-column">
@@ -81,21 +80,21 @@
     <br>
     <br>
     <h2 class="text-center mt-4">Horizontal Navigation Bar</h2>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-custom">
-            <div class="collapse navbar-collapse justify-content-center">
+    <div class="container" style="border: 1px solid black; width: 338px;">
+        <nav class="navbar navbar-expand-lg navbar-custom my-2 m-4">
+            <div class="navbar-collapse justify-content-center">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="#Home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Java</a>
+                        <a class="nav-link" href="#Java">Java</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">HTML</a>
+                        <a class="nav-link" href="#HTML">HTML</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CSS</a>
+                        <a class="nav-link" href="#CSS">CSS</a>
                     </li>
                 </ul>
             </div>
